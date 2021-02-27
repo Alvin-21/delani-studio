@@ -8,6 +8,7 @@ header {
     background-position: center;
     padding-bottom: 350px;
     padding-right: 50px;
+    text-align: center;
 }
 
 .services {
@@ -21,4 +22,24 @@ header {
     background-image: url("/assets/backgrounds/c_image.jpg");
     background-size: cover;
     padding: 50px 0;
+}
+
+.mouse-click {
+    position: relative;
+    top: 340px;
+}
+
+.intro {
+    position: relative;
+    top: 200px;
+}
+
+.logo {
+    position: relative;
+    top: 180px;
+}
+
+.size {
+    height: 80px;
+    width: 80px;
 }
