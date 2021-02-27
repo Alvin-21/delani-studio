@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 350px;
+    padding-right: 50px;
+}
+
+.services {
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.contact-us {
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    padding: 50px 0;
+}
