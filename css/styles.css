@@ -117,8 +117,26 @@ textarea {
     justify-content: center; */
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .social-icons img {
     padding: 0 5px;
+}
+
+.no-background {
+    background: transparent;
+}
+
+.white {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+input, textarea {
+    border-style: solid;
+    border-color: white;
 }
