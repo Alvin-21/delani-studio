@@ -43,3 +43,8 @@ header {
     height: 80px;
     width: 80px;
 }
+
+.about-us {
+    text-align: center;
+    padding: 40px 0;
+}
