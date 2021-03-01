@@ -110,3 +110,15 @@ textarea {
         width: 440px;
     }
 }
+
+.social-icons {
+    /* display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center; */
+    text-align: center;
+    padding-top: 40px;
+}
+
+.social-icons img {
+    padding: 0 5px;
+}
