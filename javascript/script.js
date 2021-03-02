@@ -81,4 +81,11 @@ $(document).ready(function(){
     $("#logo").mouseout(function() {
         $("#logo .image").hide();
     });
+
+    $("form").submit(function(e){
+        let name = $("#name").val();
+        alert('Hello, ' + name + ' your message has been received.\nThanks for the response. 😄');
+        document.forms[0].reset();
+        e.preventDefault();
+    });
 });
