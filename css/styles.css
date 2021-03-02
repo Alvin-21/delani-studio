@@ -147,7 +147,7 @@ input, textarea {
     display: none;
 }
 
-figcaption {
+.portfolio figcaption {
     text-align: center;
     font-weight: bold;
     border-style: solid;
@@ -157,4 +157,26 @@ figcaption {
     bottom: 75px;
     left: 30px;
     width: 75%;
+}
+
+@media screen and (max-width: 990px) {
+    .portfolio figcaption {
+        bottom: 40px;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .portfolio figcaption {
+        bottom: 200px;
+        left: 130px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio figcaption {
+        bottom: 90px;
+        left: 40px;
+    }
 }
