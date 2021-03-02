@@ -1,10 +1,19 @@
 $(document).ready(function(){
     $("div.design").click(function() {
-        $("figure.hide").toggle();
+        $("figure#design").toggle();
         $("div.design").hide();
     });
-    $("figure.hide").click(function() {
+    $("figure#design").click(function() {
         $("div.design").toggle();
-        $("figure.hide").hide();
+        $("figure#design").hide();
+    });
+
+    $("div.dev").click(function() {
+        $("figure#dev").toggle();
+        $("div.dev").hide();
+    });
+    $("figure#dev").click(function() {
+        $("div.dev").toggle();
+        $("figure#dev").hide();
     });
 });
