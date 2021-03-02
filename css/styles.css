@@ -140,3 +140,7 @@ input, textarea {
     border-style: solid;
     border-color: white;
 }
+
+.hide {
+    display: none;
+}
