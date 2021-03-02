@@ -16,4 +16,13 @@ $(document).ready(function(){
         $("div.dev").toggle();
         $("figure#dev").hide();
     });
+
+    $("div.product").click(function() {
+        $("figure#product").toggle();
+        $("div.product").hide();
+    });
+    $("figure#product").click(function() {
+        $("div.product").toggle();
+        $("figure#product").hide();
+    });
 });
